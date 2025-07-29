@@ -1,5 +1,4 @@
-import React from 'react';
-  // Popular cities data with images
+// Popular cities data with images
   const popularCities = {
     Delhi: {
       cities: {
@@ -308,5 +307,6 @@ const LandingPage = ({ onExplorePlace, onExploreAllStates }) => {
     </div>
   );
 };
-export { popularCities };
+// export { popularCities };
+export { popularCities }; 
 export default LandingPage;
